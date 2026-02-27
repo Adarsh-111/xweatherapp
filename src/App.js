@@ -42,7 +42,7 @@ function App() {
         <button onClick={fetchWeather}>Search</button>
       </div>
 
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {weather && (
         <div className="weather-cards">
